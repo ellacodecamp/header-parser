@@ -6,7 +6,6 @@ var app = express();
 require("dotenv").load();
 
 app.get("/api/whoami", function(req, res) {
-	console.log(req.headers);
   var ret = {
     "ipaddress": null,
     "language": null,
