@@ -1,0 +1,19 @@
+{
+  "name" : "header-parser",
+  "version": "0.0.1",
+  "description": "Request header parser microservice project for FCC",
+  "main": "parser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellacodecamp/header-parser"
+  },
+  "scripts": {
+    "start": "node parser.js"
+  },
+  "author": "Ella Baron",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "dotenv": "^2.0.0",
+  }
+}
